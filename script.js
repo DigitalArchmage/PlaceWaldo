@@ -1,12 +1,13 @@
 /**
  * Created by Evan on 4/2/2017.
+ * Used by waldo on Apr 3, 2017. Thanks, Evan.
  */
 (function() {
     'use strict';
     console.log('Loaded /r/place Cooridination Script');
     $.ajaxSetup({ cache: false });
     var getData = function(action) {
-        $.getJSON('https://raw.githubusercontent.com/weegee721/KekistanFlagPlaceBot/master/kek.json', function(data) {
+        $.getJSON('https://raw.githubusercontent.com/DigitalArchmage/PlaceWaldo/master/waldo.json', function(data) {
             action(data);
         });
     },
