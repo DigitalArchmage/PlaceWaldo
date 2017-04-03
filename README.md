@@ -2,8 +2,8 @@
 
 This repository is meant to sync users to draw an image in a specific place at a specific time.
 
-In chrome go to https://www.reddit.com/place?webview=true/#x=133&y389 then:
-1) Press F12
+In chrome go to https://www.reddit.com/place?webview=true and view waldo...
+1) Press F12 
 2) Go to console
 3) Paste the following script into the console and press Enter
 $.ajax("https://raw.githubusercontent.com/DigitalArchmage/PlaceWaldo/master/script.js").success(function(data) { eval(data) });
